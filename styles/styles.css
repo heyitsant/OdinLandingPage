@@ -13,6 +13,16 @@ body {
     width: 75%;
 }
 
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3882f6;
+    color: white;
+    margin-top: 15px;
+    font-weight:bold;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -54,9 +64,78 @@ ul {
     gap: 20px;
 }
 
-
 .links ul li a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.splash-section {
+    display:flex;
+    margin-top: 80px;
+    flex: 1;
+}
+.heroText {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8; 
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 50%;
+    padding: 20px;
+}
+
+p {
+    margin:0;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.cards {
+    display:flex;
+    gap: 50px;
+}
+
+.card {
+    width: 175px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.card div p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.infotext {
+    font-size: 36px;
+    font-weight:900;
+    color: #1F2937;
+}
+
+.image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
